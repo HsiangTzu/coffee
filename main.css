@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	margin: 0 auto;
+	left: 0px;
+	top: 0px;
+	width: 698px;
+	height: 103px;
+	background-color: #663300;
+	background-position: center;
+}
+
+#menu {
+	margin:0 auto;
+	left:0px;
+	top:103px;
+	width:698px;
+	height:40px;
+	background-image:url(images/test_02.jpg);
+}
+
+#content {
+	margin:0 auto;
+	left:0px;
+	top:143px;
+	width:698px;
+	height:425px;
+	background-image:url(images/test_03.jpg);
+}
+
+#footer {
+	margin: 0 auto;
+	left: 0px;
+	top: 568px;
+	width: 698px;
+	height: 107px;
+	background-image: url(images/coffeebean02.jpg);
+	background-position: center;
+}
+
+#content p {
+	margin: 0px 40px;
+	padding: 5px 0px;
+	color: #FFF;
+	font-family: "微軟正黑體", "標楷體";
+}
+#content h2 {
+	color: #EAF00A;
+	font-size: 18px;
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+
+}
+
+#content h5 {
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+	color: #FF6;
+}
+
+#wrapper {
+	width: 620px;
+	line-height: 1.8em;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+img{
+	border: 1px solid #597684;
+	margin-bottom: 10px;
+}
+
+#photo1 {
+	left: 0;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	background: url(images/Polaroid-all.jpg);
+	float: left;
+}
+
+#photo4 {
+	left: 35px;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	background: url(images/polaroid-all.jpg) -810px 0px;
+	float: left;
+	position: relative;
+}
+
+a:link {
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+	;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#menu ul{
+	margin:0;
+}
+
+#menu li {
+	list-style-type: circle;
+	float: left;
+	margin-top: 10px;
+	margin-left: 70px;
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+	font-size: 18px;
+	list-style-image: url(images/sidebar.png);
+}
+
+#column1 {
+	background-color: #B17436;
+	display: inline;
+	float: left;
+	width: 140px;
+	margin: 10px 5px;
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+	font-size: 16px;
+	color: #FC0;
+}
+
+#column2 {
+	background-color: #D3A372;
+	display: inline;
+	float: left;
+	width: 140px;
+	margin: 10px 5px;
+	font-size: 16px;
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+	color: #930;
+}
+
+#column3 {
+	background-color: #B17436;
+	display: inline;
+	float: left;
+	width: 140px;
+	margin: 10px 5px;
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+	font-size: 16px;
+	color: #FC0;
+}
+
+#column4 {
+	background-color: #D3A372;
+	display: inline;
+	float: left;
+	width: 140px;
+	margin: 10px 5px;
+	font-family: "微軟正黑體", "標楷體", "新細明體";
+	font-size: 16px;
+	color: #930;
+}
+
+#column1 a {
+	color: #FF0;
+	text-decoration: none;
+}
+
+#column1 a:hover {
+	color: #FF0;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #FC0;
+}
+
+#column2 a {
+	color: #933;
+	text-decoration: none;
+}
+
+#column2 a:hover {
+	color: #933;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #930;
+}
+
+#column3 a {
+	color: #FF0;
+	text-decoration: none;
+}
+
+#column3 a:hover {
+	color: #FF0;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #FC0;
+}
+
+#column4 a {
+	color: #933;
+	text-decoration: none;
+}
+
+#column4 a:hover {
+	color: #933;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #930;
+}

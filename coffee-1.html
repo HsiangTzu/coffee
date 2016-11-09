@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>推薦的咖啡廳</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body style="background-color: #663300; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;" onload="MM_preloadImages('images/nacture02.jpg','images/bunny03.jpg','images/lab02.jpg','images/galette06.jpg')">
+
+<div id="header"><img src="images/coffeebean.jpeg" alt="" width="697" height="102" />
+		
+</div>
+<div id="menu">
+  <ul>
+    <li><a href="index.html">關於咖啡</a></li>
+    <li><a href="coffee-1.html">咖啡推薦</a></li>
+    <li><a href="coffee-2.html">照片欣賞</a></li>
+    <li><a href="coffee-3.html">店家資訊</a></li>
+  </ul>
+</div>
+<div id="content">
+<div id="wrapper">
+<div id="column1">
+  <img src="images/nacture01.jpg" width="138" height="93" id="Image1" onmouseover="MM_swapImage('Image1','','images/nacture02.jpg',1)" onmouseout="MM_swapImgRestore()" /><br />
+  Caf'e 自然醒<br />
+  店內的單品咖啡種類不少，味道也滿多樣化的。<br />
+  我點了其中一種單品-耶加雪啡，舒服的莓果酸味，橙皮和荔枝的香氣，尾韻有淡淡的甜味。<br />
+  <a href="coffee-3.html"><img src="images/more1.jpg" width="43" height="16" align="right" title="詳細資訊"/></a><br />
+</div>
+<div id="column2"><img src="images/bunny01.jpg" width="138" height="93" id="Image2" onmouseover="MM_swapImage('Image2','','images/bunny03.jpg',1)" onmouseout="MM_swapImgRestore()" /><br />
+  野兔咖啡<br />
+  店內除了咖啡之外，也有4~5種甜點，來到店中可嘗試看看。<br />
+  推薦單品耶加雪啡，是水洗的豆子，淡雅的花香，有著柑橘般的酸味，尾韻微甜。<br />
+  <a href="coffee-3.html"><img src="images/more1.jpg" width="43" height="16" align="right" title="詳細資訊"/></a>
+</div>
+<div id="column3"><img src="images/lab01.jpg" width="138" height="93" id="Image3" onmouseover="MM_swapImage('Image3','','images/lab02.jpg',1)" onmouseout="MM_swapImgRestore()" /><br />
+  Lab 146<br />
+  店內的裝潢走簡約風，去的那天天氣太熱，選了冰飲。<br />
+  選了店員推薦的花蝴蝶，是水洗的豆子，很清爽的感覺，微微的酸甜，覺得滿適合在夏天飲用。
+  <a href="coffee-3.html"><img src="images/more1.jpg" width="43" height="16" align="right" title="詳細資訊"/></a></div>
+<div id="column4"><img src="images/galette01.jpg" width="138" height="93" id="Image4" onmouseover="MM_swapImage('Image4','','images/galette06.jpg',1)" onmouseout="MM_swapImgRestore()" /><br />
+  葛樂蒂 Galette<br />
+  有著明亮溫馨的空間，有提供拼圖服務，在等待的時間中增添趣味。<br />
+  推薦哥斯大黎加，花草香較淡，堅果香較濃，微酸，但放冷後會較明顯，尾韻會淡淡的回甘
+  <a href="coffee-3.html"><img src="images/more1.jpg" width="43" height="16" align="right" title="詳細資訊"/></a></div>
+</div>
+</div>
+<div id="footer">
+
+</div>
+
+</body>
+</html>
